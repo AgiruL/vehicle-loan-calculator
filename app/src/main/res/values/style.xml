@@ -1,0 +1,7 @@
+<resources>
+    <style name="Theme.VehicleLoanCalculator" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryDark">@color/purple_700</item>
+        <item name="colorAccent">@color/orange</item>
+    </style>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@color/homepage_purple">
+
+    <!-- App Logo -->
+
+    <!-- App Title -->
+    <ImageView
+        android:layout_width="171dp"
+        android:layout_height="161dp"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/gemini_generated_image_ja30uvja30uvja30"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vehicle_loan_calculator"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="30dp" />
+
+    <!-- App Description -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate your monthly vehicle loan payments today"
+        android:textSize="16sp"
+        android:lineSpacingExtra="4sp"
+        android:gravity="center"
+        android:layout_marginBottom="50dp"
+        tools:ignore="HardcodedText" />
+
+    <!-- Calculate Button -->
+    <Button
+        android:id="@+id/btnGoToCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate_loan"
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@color/white" />
+
+    <!-- About Button -->
+    <Button
+        android:id="@+id/btnGoToAbout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:textSize="18sp"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@color/white"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Vehicle Loan Calculator</string>
+    <string name="about">About</string>
+    <string name="calculator">Calculator</string>
+    <string name="calculate_your_monthly_vehicle_loan_payments_easily_input_vehicle_price_down_payment_loan_period_and_interest_rate_to_get_instant_results">Calculate your monthly vehicle loan payments easily. Input vehicle price, down payment, loan period, and interest rate to get instant results.</string>
+    <string name="calculate_loan">Calculate Loan</string>
+    <string name="vehicle_loan_calculator">Vehicle Loan Calculator</string>
+</resources>

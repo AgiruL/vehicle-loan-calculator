@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white_purplish">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- App Icon -->
+        <ImageView
+            android:layout_width="124dp"
+            android:layout_height="130dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/gemini_generated_image_ja30uvja30uvja30" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="About"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="@color/purple_700"
+            android:layout_marginBottom="30dp" />
+
+        <!-- Author Information -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/light_gray"
+            android:padding="20dp"
+            android:layout_marginBottom="20dp"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Author Information"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/purple_700" />
+
+            <TextView
+                android:id="@+id/tvAuthorName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name: [Your Name]"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/tvMatricNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Matric No: [Your Matric Number]"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/tvCourse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Course: [Your Course]"
+                android:textSize="16sp"
+                android:layout_marginBottom="30dp" />
+        </LinearLayout>
+
+        <!-- Copyright Notice -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Copyright © 2025 Vehicle Loan Calculator. All rights reserved."
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_marginBottom="30dp" />
+
+        <!-- GitHub Repository -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/light_gray"
+            android:padding="20dp"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GitHub Repository:"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="10dp"
+                android:textColor="@color/purple_700" />
+
+            <TextView
+                android:id="@+id/tvGitHubUrl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="https://github.com/yourusername/vehicle-loan-calculator"
+                android:textColor="#2196F3"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:focusable="true" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
