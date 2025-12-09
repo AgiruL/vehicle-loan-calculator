@@ -1,5 +1,5 @@
 # Vehicle Loan Calculator App📱🚗
-<p align="center"><img src="app/src/main/res/drawable/appimage.png?raw=true"></p>
+<p align="center"><img src="app/src/main/res/drawable/gemini_generated_image_ja30uvja30uvja30.png?raw=true"></p>
 
 📱 About the App
 > A simple Android app for calculating vehicle loan payments. Enter vehicle details to see monthly payments instantly.
