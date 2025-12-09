@@ -36,10 +36,9 @@
 3. About - Author info and GitHub link
 
 ## 👨‍💻 Author
-1. Name: [Your Name]
-2. Matric No: [Your Matric Number]
-3. Course: [Your Course]
-4. GitHub: yourusername
+1. Name: AMIRUL HAZIQ BIN BADRUL HISHAM
+2. Matric No: 2023657278
+3. Course: 2023657278
 
 ### Git clone
 ```bash
